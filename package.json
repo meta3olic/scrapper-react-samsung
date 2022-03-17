@@ -1,0 +1,24 @@
+{
+  "name": "scrapper_react_samsung",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meta3olic/scrapper-react-samsung.git"
+  },
+  "author": "Nikita Aldashkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meta3olic/scrapper-react-samsung/issues"
+  },
+  "homepage": "https://github.com/meta3olic/scrapper-react-samsung#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "puppeteer": "^13.5.1"
+  }
+}
