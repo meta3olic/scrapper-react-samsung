@@ -1,7 +1,6 @@
 import puppeteer from "puppeteer";
 import chalk from "chalk";
 
-const user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36';
 const launch_puppeteer_opts = {
 	headless: true,
 	args: [
@@ -11,7 +10,7 @@ const launch_puppeteer_opts = {
 		'--disable-dev-shm-usage',
 		'--disable-accelerated-2d-canvas',
 		'--disable-gpu',
-		'--window-size=1920x1080',
+		'--window-size=1920x3000',
 	]
 };
 
