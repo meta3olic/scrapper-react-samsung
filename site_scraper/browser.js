@@ -8,6 +8,7 @@ const launch_puppeteer_opts = {
 		'--no-sandbox',
 		'--disable-setuid-sandbox',
 		'--disable-dev-shm-usage',
+		'--single-process',
 		'--disable-accelerated-2d-canvas',
 		'--disable-gpu',
 		'--window-size=1920x3000',
